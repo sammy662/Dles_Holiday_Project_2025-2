@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 24px;
+  text-align: center;
+}
+
+.brand {
+  font-size: 16px;
+  color: #111;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+form input[type="email"] {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #4a71ff;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-bottom: 16px;
+  outline: none;
+}
+
+form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.signup {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.signup a {
+  color: #4a71ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.divider {
+  margin: 30px 0;
+  position: relative;
+  text-align: center
